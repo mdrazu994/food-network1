@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #1a1519;
   }
   h1{
     
@@ -24,19 +24,16 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
   .active {
-    background-color: #04AA6D;
+    background-color: red;
   }
 
 span{
     color:tomato;
 }
 .button{
+    color: white;
+    font-weight: 200px;
     text-decoration: none;
     background-image: linear-gradient(rgb(241, 8, 39), rgba(218, 44, 14, 0.705));
     padding: 7px 15px;
@@ -69,20 +66,21 @@ span{
 .follower{
     height: 150px;
     text-align: center;
-    border-color: honeydew;
+    margin: 2.5%;
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .card{
     float: left;
     width: 21%;
-    margin: 2%;
-    padding: 4%;
+    margin: 2.5%;
+    padding: 3.6%;
     margin-top: 2%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 15px;
    
 }
-.car{
+.web{
     float: left;
     width: 30%;
     
@@ -96,6 +94,14 @@ span{
 }
 h3{
     color: dimgrey;
+}
+.container{
+    margin: 3%;
+}
+.submit-aria{
+    background-color: teal;
+    border-radius: 5px;
+    padding-left: 22px;
 }
 footer{
     color: gainsboro;
