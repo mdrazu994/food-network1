@@ -55,9 +55,8 @@ span{
     width: 70%;
 }
 #about-sec{
-    background-image: url(images/shapes/Frame\ 58.jpg);
-    background-repeat: no-repeat;
-    position: relative;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: cover;
     margin-top: 4%;
 }
 .item{
@@ -67,12 +66,27 @@ span{
 .my-recipe{
     text-align: center;
 }
+.follower{
+    height: 150px;
+    text-align: center;
+    border-color: honeydew;
+    border-radius: 15px;
+}
 .card{
     float: left;
-    width: 30%;
-    padding-left: 3%;
+    width: 21%;
+    margin: 2%;
+    padding: 4%;
     margin-top: 2%;
-   box-shadow: 0 0 15px grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+   
+}
+.car{
+    float: left;
+    width: 30%;
+    
+    
 }
 .last-sec{
     text-align: center;
